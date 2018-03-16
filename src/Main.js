@@ -7,6 +7,7 @@ import {
 import Home from "./Home";
 import Stuff from "./Stuff";
 import Contact from "./Contact";
+import NameGame from "./NameGame";
 import TicTacToe from "./TicTacToe";
 
 import "./Main.css"
@@ -21,12 +22,14 @@ class Main extends Component {
             <li><NavLink exact to="/">Home</NavLink></li>
             <li><NavLink to="/stuff">Stuff</NavLink></li>
             <li><NavLink to="/contact">Contact</NavLink></li>
+            <li><NavLink to="/namegame">NameGame</NavLink></li>
             <li><NavLink to="/tictactoe">TicTacToe</NavLink></li>
           </ul>
           <div className="content">
             <Route exact path="/" component={Home}/>
             <Route path="/stuff" component={Stuff}/>
             <Route path="/contact" component={Contact}/>
+            <Route path="/namegame" component={NameGame}/>
             <Route path="/tictactoe" component={TicTacToe}/>
           </div>
         </div>
