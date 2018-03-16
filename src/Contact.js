@@ -4,9 +4,9 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <h2>GOT QUESTIONS?</h2>
-        <p>The easiest thing to do is post on
-        our <a href="http://forum.kirupa.com">forums</a>.
+        <h2>Questions?</h2>
+        <p>
+            <a href="mailto:ajuljulian@yahoo.com?Subject=Hello" target="_top">Email me</a>.
         </p>
       </div>
     );
